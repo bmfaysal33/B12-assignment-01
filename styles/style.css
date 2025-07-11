@@ -33,11 +33,15 @@
   color: white;
   border: none;
   cursor: pointer;
+  
 }
 
+.btn:hover{
+    background-color: rgba(24, 197, 24, 0.718);
+}
 
-body{
-    background: rgb(245, 248, 255);
+body {
+  background: rgb(245, 248, 255);
 }
 
 /* Navbar starts here  */
@@ -100,7 +104,7 @@ body{
 
 #action-texts > h1 {
   color: rgb(37, 36, 50);
-  
+
   font-size: 42px;
   font-weight: 700;
   line-height: 49px;
@@ -111,7 +115,7 @@ body{
 
 #action-texts > p {
   color: rgba(37, 36, 50, 0.5);
- 
+
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -133,8 +137,6 @@ body{
   text-align: center;
   flex-direction: column;
 }
-
-
 
 .stats-info {
   display: flex;
@@ -191,33 +193,86 @@ body{
 }
 
 .forms-field textarea {
-    height: auto;
+  height: auto;
 }
 
+/* Users review */
 
+#user-review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
 
+#user-review > div > h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+#cards-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 54px;
+        margin-bottom: 160px;
+}
+
+.review-cards {
+  border: 2px solid;
+  border: 1px solid rgb(242, 237, 237);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  width: 367px;
+  text-align: left;
+  padding: 24px 4px 12px 35px;
+}
+
+.review-cards > div > h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 12px auto;
+}
+
+.review-cards > div > p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.icons-card {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.icons-card div h2 {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 15px;
+}
 
 /* Footer Section */
 
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
 }
 
-.footer-elements{
-    width: 50%;
-    margin: 24px auto;
+.footer-elements {
+  width: 50%;
+  margin: 24px auto;
 }
 
-.footer-elements div a{
-    margin-right: 15px;
-    text-decoration: none;
-    color: rgb(137, 135, 161);
+.footer-elements div a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: rgb(137, 135, 161);
 }
-
-
-
