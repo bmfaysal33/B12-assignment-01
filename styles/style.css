@@ -193,3 +193,31 @@ body{
 .forms-field textarea {
     height: auto;
 }
+
+
+
+
+/* Footer Section */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+
+}
+
+.footer-elements{
+    width: 50%;
+    margin: 24px auto;
+}
+
+.footer-elements div a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+}
+
+
+
