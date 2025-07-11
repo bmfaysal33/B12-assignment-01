@@ -1,4 +1,10 @@
-/* Fonts Inter  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font Inter  */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
@@ -15,23 +21,14 @@
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-
+  
   font-style: normal;
-}
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 /* Shared Styles.... */
 
 .logo {
   color: rgb(78, 71, 255);
-  font-family: Inter;
   font-size: 34px;
   font-weight: 900;
 }
@@ -59,3 +56,34 @@
 }
 
 /* Navbar Ends here  */
+
+/* Banner Section  */
+
+    #banner{
+            background-image: url(../Assets/Hero-bg.png);
+    }
+
+    #banner-contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: 200px auto;
+    }
+
+.banner-title {
+  color: rgb(37, 36, 50);
+  font-family: "Raleway", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 100px 0;
+}
+
+
+ .banner-button {
+    margin-bottom: 120px;
+ }
