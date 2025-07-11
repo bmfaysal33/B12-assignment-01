@@ -1,0 +1,61 @@
+/* Fonts Inter  */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Font Raleway  */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shared Styles.... */
+
+.logo {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.btn {
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  padding: 12px 36px 12px 36px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Navbar starts here  */
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 40px auto;
+}
+
+/* Navbar Ends here  */
